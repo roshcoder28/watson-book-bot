@@ -1,0 +1,73 @@
+example,intent
+Can you suggest me a book?,GetBookRecommendation
+I want something good to read.,GetBookRecommendation
+Recommend a novel.,GetBookRecommendation
+Give me a book based on my mood.,GetBookRecommendation
+Suggest a thriller.,GetBookRecommendation
+What should I read next?,GetBookRecommendation
+Pick a book for me,GetBookRecommendation
+I need a book recommendation,GetBookRecommendation
+Tell me a good book to read,GetBookRecommendation
+Which book should I try?,GetBookRecommendation
+Any great books lately?,GetBookRecommendation
+Help me find a book,GetBookRecommendation
+Hello,Greet
+Hi there,Greet
+Hey Watson,Greet
+Good morning!,Greet
+Yo,Greet
+Hey,Greet
+Hi,Greet
+Greetings,Greet
+What's up?,Greet
+Howdy,Greet
+Bye,Goodbye
+See you later,Goodbye
+"Thanks, I'm done",Goodbye
+Goodbye Watson,Goodbye
+Talk to you soon,Goodbye
+Catch you later,Goodbye
+See ya,Goodbye
+I’m leaving now,Goodbye
+Later,Goodbye
+Bye bye,Goodbye
+Suggest a mystery book,AskForGenre
+Any good romance novels?,AskForGenre
+Give me a science fiction recommendation,AskForGenre
+I'm in the mood for horror,AskForGenre
+Recommend a fantasy book,AskForGenre
+Show me some historical fiction,AskForGenre
+Can I get a comedy novel?,AskForGenre
+What’s the best detective book?,AskForGenre
+I want to read a dystopian story,AskForGenre
+Suggest a young adult book,AskForGenre
+Do you have anything by Agatha Christie?,AskForAuthor
+Give me books from Dan Brown,AskForAuthor
+I love J.K. Rowling’s books,AskForAuthor
+Any novels by Stephen King?,AskForAuthor
+Do you have something from Tolkien?,AskForAuthor
+I’m looking for books by Murakami,AskForAuthor
+What has George Orwell written?,AskForAuthor
+Show me books from Neil Gaiman,AskForAuthor
+I like books by Brandon Sanderson,AskForAuthor
+Give me books written by Jane Austen,AskForAuthor
+Thanks!,ThankYou
+Thank you WatsonReads,ThankYou
+Appreciate your help,ThankYou
+You're the best,ThankYou
+Much appreciated,ThankYou
+Thanks a lot,ThankYou
+Cheers,ThankYou
+Thanks for the help,ThankYou
+"Thanks, that was useful",ThankYou
+I’m grateful,ThankYou
+What can you do?,Help
+Help me,Help
+How does this work?,Help
+How do I get a book recommendation?,Help
+What are your features?,Help
+What kind of books can you suggest?,Help
+Tell me how to use this,Help
+I need assistance,Help
+Can you explain what you do?,Help
+Show me how this works,Help

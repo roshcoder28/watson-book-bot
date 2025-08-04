@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📚 BookBot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="hero">
+          <h1>Welcome to the Book World</h1>
+        </div>
+      </header>
+      
+  <main>
+    <section class="genre">
+      <h2>Top Sellers</h2>
+      <div class="book-row">
+        <div class="book">
+          <img src="images/silent_patient.jpg" alt="The Silent Patient" />
+          <p class="book-title"><b>The Silent Patient</b></p>
+        </div>
+        <div class="book">
+          <img src="images/atomic_habits.jpg" alt="Atomic Habits" />
+          <p class="book-title"><b>Atomic Habits</b></p>
+        </div>
+        <div class="book">
+          <img src="images/ikigai.jpg" alt="Ikigai" />
+          <p class="book-title"><b>Ikigai</b></p>
+        </div>
+        <div class="book">
+          <img src="images/alchemist.jpg" alt="The Alchemist" />
+          <p class="book-title"><b>The Alchemist</b></p>
+        </div>
+        <div class="book">
+            <img src="images/book_thief.jpg" alt="The Book Thief" />
+            <p class="book-title"><b>The Book Thief</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="genre">
+      <h2>Thriller</h2>
+      <div class="book-row">
+        <div class="book">
+          <img src="images/gone_girl.jpg" alt="Gone Girl" />
+          <p class="book-title">Gone Girl</p>
+        </div>
+        <div class="book">
+          <img src="images/dragon_tattoo.jpg" alt="The Girl with the Dragon Tattoo" />
+          <p class="book-title">The Girl with the Dragon Tattoo</p>
+        </div>
+        <div class="book">
+          <img src="images/da_vinci.jpg" alt="The Da Vinci Code" />
+          <p class="book-title">The Da Vinci Code</p>
+        </div>
+        <div class="book">
+            <img src="images/guest.jpg" alt="The Guest List" />
+            <p class="book-title">The Guest List</p>
+        </div>
+        <div class="book">
+            <img src="images/lost.jpg" alt="The Lost Symbol" />
+            <p class="book-title">The Lost Symbol</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="genre">
+      <h2>Drama / Fiction</h2>
+      <div class="book-row">
+        <div class="book">
+          <img src="images/kite_runner.jpg" alt="The Kite Runner" />
+          <p class="book-title">The Kite Runner</p>
+          <div class="overlay">
+            <h3 class="title">The Kite Runner</h3>
+            <h4 class="author">Khaled Hosseini</h4>
+            <p class="summary">A heartbreaking story of guilt, redemption, 
+                and friendship across war-torn Afghanistan</p>
+            <button>View Book</button>
+          </div>
+        </div>
+        <div class="book">
+          <img src="images/ove.jpg" alt="A Man Called Ove" />
+          <p class="book-title">A Man Called Ove</p>
+          <div class="overlay">
+            <h3 class="title">A Man Called Ove</h3>
+            <h4 class="author">Fredrik Backman</h4>
+            <p class="summary">Grumpy old man finds purpose through
+                 unexpected friendships and second chances</p>
+            <button>View Book</button>
+          </div>
+        </div>
+        <div class="book">
+          <img src="images/mockingbird.jpg" alt="To Kill a Mockingbird" />+
+          <p class="book-title">To Kill a Mockingbird</p>
+          <div class="overlay">
+            <h3 class="title">To Kill a Mockingbird </h3>
+            <h4 class="author">Harper Lee</h4>
+            <p class="summary">A child’s view of racism, justice, 
+                and moral courage in 1930s Alabama.</p>
+            <button>View Book</button>
+          </div>
+        </div>
+        <div class="book">
+            <img src="images/gatsby.jpg" alt="The Great Gatsby" />+
+            <p class="book-title">The Great Gatsby</p>
+            <div class="overlay">
+                <h3 class="title">The Great Gatsby</h3>
+                <h4 class="author">F. Scott Fitzgerald  </h4> 
+                <p  class="summary">Jazz Age dreamer chases love and wealth, 
+                    only to face inevitable disillusionment.</p> 
+              </div>
+        </div>
+          <div class="book">
+            <img src="images/harry.jpg" alt="Harry Potter" />+
+            <p class="book-title">Harry Potter</p>
+            <div class="overlay">
+                <h3 class="title">Harry Potter </h3>
+                <h4 class="author">J.K. Rowling</h4>
+                <p class="summary">Orphan boy discovers he’s a wizard; 
+                    begins magical journey of friendship and destiny.</p>
+                <button>View Book</button>
+              </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "6fbd0d2f-a500-4da8-a99f-6ea144cc933a", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "5a7a0353-0333-459f-84d5-ec4af0a757d9", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>

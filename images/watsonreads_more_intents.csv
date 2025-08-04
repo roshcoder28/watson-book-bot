@@ -1,0 +1,41 @@
+example,intent
+Can you give me a summary of this book?,BookSummary
+What's this book about?,BookSummary
+Tell me the plot of this novel,BookSummary
+I want a quick summary,BookSummary
+Summarize the story for me,BookSummary
+Briefly explain the book,BookSummary
+What is the book's storyline?,BookSummary
+Can you explain what this book is about?,BookSummary
+Is this book available?,BookAvailability
+Where can I find this book?,BookAvailability
+Can I read this online?,BookAvailability
+Is it on Amazon?,BookAvailability
+Where can I buy this novel?,BookAvailability
+Is this book in stock?,BookAvailability
+Can I borrow it from the library?,BookAvailability
+Show me where to get the book,BookAvailability
+Suggest a book for a sad mood,AskForMood
+I want something cheerful,AskForMood
+Recommend a book that lifts my spirits,AskForMood
+"I'm feeling down, what should I read?",AskForMood
+I need an emotional story,AskForMood
+Any motivational books?,AskForMood
+Give me something inspiring,AskForMood
+"I'm feeling dark, suggest a grim novel",AskForMood
+What are the best books right now?,TopBooks
+Show me trending books,TopBooks
+Top 10 novels of this year?,TopBooks
+Give me popular book suggestions,TopBooks
+Which books are people loving these days?,TopBooks
+List the best sellers,TopBooks
+What's hot in fiction?,TopBooks
+Tell me this month's top reads,TopBooks
+"I have 30 minutes, suggest a short read",ReadingTime
+Recommend a quick book,ReadingTime
+Any novellas I can finish fast?,ReadingTime
+Suggest something short and sweet,ReadingTime
+Give me a weekend read,ReadingTime
+I want a long book for vacation,ReadingTime
+Suggest a lengthy novel,ReadingTime
+Looking for a book I can read in one sitting,ReadingTime

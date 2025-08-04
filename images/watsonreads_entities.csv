@@ -1,0 +1,26 @@
+entity,value,synonyms
+genre,mystery,detective;whodunit;crime
+genre,romance,love story;romantic
+genre,science fiction,sci-fi;sci fi;sf
+genre,horror,scary;ghost;thriller
+genre,fantasy,magical;mythical;epic fantasy
+genre,historical fiction,history novel;past fiction
+genre,comedy,funny;humor
+genre,dystopian,post-apocalyptic;future gone wrong
+genre,young adult,ya;teen fiction
+author,Agatha Christie,Christie
+author,Dan Brown,Brown
+author,J.K. Rowling,Rowling;Joanne Rowling
+author,Stephen King,King
+author,J.R.R. Tolkien,Tolkien
+author,Haruki Murakami,Murakami
+author,George Orwell,Orwell
+author,Neil Gaiman,Gaiman
+author,Brandon Sanderson,Sanderson
+author,Jane Austen,Austen
+mood,happy,cheerful;uplifting
+mood,sad,emotional;tearjerker
+mood,exciting,fast-paced;thrilling
+mood,relaxing,calm;chill
+mood,dark,grim;bleak;disturbing
+mood,inspiring,motivational;encouraging
